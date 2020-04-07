@@ -9,7 +9,7 @@ public class MeuArrayList {
 	
 	public void add(Object obj) {
 
-		if (arrayInterno.length<inseridos) {
+		if (arrayInterno.length==inseridos) {
 			Object[] novoArray=new Object[arrayInterno.length+ALLOCATION];
 			for(int i=0; i<arrayInterno.length;i++) {
 				novoArray[i]=arrayInterno[i];
