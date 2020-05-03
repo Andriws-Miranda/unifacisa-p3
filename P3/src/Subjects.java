@@ -6,8 +6,8 @@ public class Subjects {
 	private String name;
 	private char classId;
 	private String admin;
-	
+
 	public void displaySubject() {
-		
+
 	}
 }

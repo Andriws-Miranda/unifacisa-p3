@@ -8,7 +8,7 @@ public class Classe {
 	private String nome;
 	private String division;
 	private String admin;
-	
+
 	public void displayClasses() {
 	}
 }
